@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "qualitative-analysis"
+version = "0.1.0"
+description = "qualitative analysis for master thesis"
+authors = ["opmvpc <thibsix@outlook.be>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+nltk = "^3.8.1"
+python-docx = "^1.1.2"
+plotext = "^5.2.8"
+rich = "^13.7.1"
+textblob = "^0.18.0.post0"
+scikit-learn = "^1.5.1"
+gensim = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

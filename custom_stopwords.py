@@ -1,0 +1,15 @@
+CUSTOM_STOPWORDS = set([
+    'ça', 'oui', 'donc', 'a', 'fait', 'plus', 'quand', 'voilà', 'parce',
+    'peu', 'alors', 'comme', 'si', 'tout', 'être', 'avoir', 'faire',
+    'roman', 'couchard', 'catherine', 'franken', 'sylvain', 'léonis', 'vraiment', 'très', 'dit', 'ah', 'bais',
+    'bon', 'coup', 'dire', 'vas', 'veux', 'aussi', 'enfin', 'quoi',
+    'vois', 'non', 'après', 'sais', 'mal', 'fois',
+    'ben', 'déjà', 'puis', 'genre', 'parfois', 'côté', 'faut',
+    'pense', 'chaque', 'cette', 'peux', 'peut', 'vais', 'dis',
+    'quelque', 'maintenant', 'donne', 'juste', 'voir', 'mettre', 'quel', 'encore', 'ici', 'début', 'toujours',
+    'pourquoi', 'avec', 'entre', 'chez', 'depuis', 'selon', 'sans', 'par',
+    'dans', 'sous', 'sur', 'autour', 'avant', 'après', 'devant', 'derrière',
+    'autre', 'ni', 'seulement', 'truc', 'tous', 'toutes', 'jusqu', 'aussi',
+    'les', 'des', 'mes', 'tes', 'ses', 'nos', 'vos', 'leurs', 'et', 'ou',
+    'mais', 'or', 'donc', 'ni', 'car', 'parce que', 'alors que', 'bien que', 'derrière', 'quelle', 'plutôt', 'aller', 'tous', 'tant',
+])
