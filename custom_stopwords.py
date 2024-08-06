@@ -11,5 +11,5 @@ CUSTOM_STOPWORDS = set([
     'dans', 'sous', 'sur', 'autour', 'avant', 'après', 'devant', 'derrière',
     'autre', 'ni', 'seulement', 'truc', 'tous', 'toutes', 'jusqu', 'aussi',
     'les', 'des', 'mes', 'tes', 'ses', 'nos', 'vos', 'leurs', 'et', 'ou',
-    'mais', 'or', 'donc', 'ni', 'car', 'parce que', 'alors que', 'bien que', 'derrière', 'quelle', 'plutôt', 'aller', 'tous', 'tant',
+    'mais', 'or', 'donc', 'ni', 'car', 'parce que', 'alors que', 'bien que', 'derrière', 'quelle', 'plutôt', 'aller', 'tous', 'tant', "ans", "mis",
 ])

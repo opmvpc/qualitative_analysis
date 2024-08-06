@@ -1,23 +1,18 @@
 from data_processing import read_and_preprocess_files
 from basic_analysis import perform_basic_analysis
 from advanced_analysis import perform_advanced_analysis
-from visualization import create_layout
-from rich.console import Console
+from visualization import run_analysis_with_progress
 
 
 def main():
     data_directory = 'data'
-    word_frequencies, file_stats, all_text = read_and_preprocess_files(
-        data_directory)
 
-    basic_results = perform_basic_analysis(
-        word_frequencies, file_stats, all_text)
-    advanced_results = perform_advanced_analysis(file_stats, all_text)
-
-    layout = create_layout(basic_results, advanced_results)
-
-    console = Console()
-    console.print(layout)
+    run_analysis_with_progress(
+        read_and_preprocess_files,
+        perform_basic_analysis,
+        perform_advanced_analysis,
+        data_directory
+    )
 
 
 if __name__ == "__main__":
